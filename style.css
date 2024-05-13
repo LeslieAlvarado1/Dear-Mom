@@ -18,6 +18,15 @@ body {
     height: 185px; /* Set a fixed height */
     border-radius: 20px; /* Set the border radius to half of the button's height to make it round */
 }
+.container {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid #ccc; /* Add a border for the box */
+    padding: 20px; /* Add some padding to create space between the content and the border */
+    margin: 1% 5% 0; /* The first value (3%) represents the top margin.
+                    The second value (5%) represents both the left and right margins.
+                    The third value (0) represents the bottom margin. */
+    border-radius: 10px; /* Add rounded corners to the box */
+}
 
 #button {
     padding: 10px 20px; /* Adjust the padding as needed */

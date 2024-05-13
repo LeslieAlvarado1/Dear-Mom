@@ -12,14 +12,15 @@
 </head>
 
 <body>
-    <h1>Gift Ideas:</h1>
-
-    <label for="searchMe">Search Gift Ideas</label>
-    <input type="text" id="searchField">
-    <select id="giftIdeas" name="giftIdeasNames"></select>
-
-    <button id="selectedButton" onclick="displayItem()">Display Gift</button>
-    <button id="resetButton" onclick="clearFilters()">Clear Filter</button>
+    <div class="container">
+        <label for="searchMe">Search Gift Ideas:</label>
+        <input type="text" name="searchMe" id="searchField">
+        <select id="giftIdeas" name="giftIdeasNames"></select>
+    
+        <button id="selectedButton" onclick="displayItem()">Display Gift</button>
+        <button id="resetButton" onclick="clearFilters()">Clear Filter</button>
+    </div>
+    
     <div class="message-container">
         <button type="button" id="button" class="btn btn-danger" onclick="displayMessage()">Something I'd like to
             say,</button>
