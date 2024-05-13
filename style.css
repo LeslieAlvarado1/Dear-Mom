@@ -1,0 +1,34 @@
+body {
+    background-image: url('/images/mom-and-I.jpg') !important;
+    background-position: center; 
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.message-container {
+    position: fixed; /* Position the container fixed to the viewport */
+    top: 50%; /* Move the container down by half of its height */
+    left: 50%; /* Move the container to the right by half of its width */
+    transform: translate(-50%, -50%); /* Center the container both horizontally and vertically */
+    background-color: rgba(255, 59, 59, 0.5); /* Transparent background with white color */
+    padding: 20px; /* Add padding to the container */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    text-align: center; /* Center the text horizontally */
+    width: 650px; /* Set a fixed width */
+    height: 185px; /* Set a fixed height */
+    border-radius: 20px; /* Set the border radius to half of the button's height to make it round */
+}
+
+#button {
+    padding: 10px 20px; /* Adjust the padding as needed */
+    width: 200px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    margin-bottom: 20px; /* Add some space between the button and the message */
+    background-color: rgb(255, 82, 134);
+    border-radius: 10px; /* Set the border radius to half of the button's height to make it round */
+}
+
+#message {
+    font-size: 18px; /* Adjust font size as needed */
+    font-style: italic; /* Make the quote italic */
+}
