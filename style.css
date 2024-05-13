@@ -3,6 +3,7 @@ body {
     background-position: center; 
     height: 100vh; /* Ensure the body takes up the full height of the viewport */
     margin: 0; /* Remove default margin */
+    
 }
 
 .message-container {
@@ -26,9 +27,10 @@ body {
                     The second value (5%) represents both the left and right margins.
                     The third value (0) represents the bottom margin. */
     border-radius: 10px; /* Add rounded corners to the box */
+    
 }
 
-#button {
+.button {
     padding: 10px 20px; /* Adjust the padding as needed */
     width: 280px; /* Set a fixed width */
     height: 40px; /* Set a fixed height */
@@ -39,7 +41,12 @@ body {
     font-weight: 400;
     font-size: 18px; /* Adjust font size as needed */
 }
-
+.searchButtons {
+    border-radius: 10px; /* Set the border radius to half of the button's height to make it round */
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-size: 15px; /* Adjust font size as needed */
+}
 #message {
     font-size: 22px; /* Adjust font size as needed */
     font-family: "Neucha", cursive;

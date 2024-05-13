@@ -24,7 +24,9 @@ window.onload = function () {
   //Name of Fuction, prefrix INIT to indicate this is the first thing to Do
   initLoadDropdownGiftIdeas();
   const giftList = document.getElementById("giftIdeas");
-  giftList.value = null;
+  giftList.onchange = changeDropDownValue;
+  giftList.value = "";
+
 };
 
 function initLoadDropdownGiftIdeas() {
@@ -86,6 +88,14 @@ function displayItem() {
   } else if (selectedValue == "Gift4") {
     document.getElementById("message").innerText = "Concerts are so much fun!";
   }
+}
+function changeDropDownValue () {
+    //grab the giftlist
+  const giftList = document.getElementById("giftIdeas");
+
+  //let selected value
+  let selectedvalue = giftList.value;
+  document.getElementById("message").innerText = selectedvalue;
 }
 
 function displayMessage() {
