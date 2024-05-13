@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/mom-and-I.jpg') !important;
+    background-image: url('images/mom-and-I.jpg');
     background-position: center; 
     height: 100vh; /* Ensure the body takes up the full height of the viewport */
     margin: 0; /* Remove default margin */
