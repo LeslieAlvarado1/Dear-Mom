@@ -10,7 +10,7 @@ body {
     top: 50%; /* Move the container down by half of its height */
     left: 50%; /* Move the container to the right by half of its width */
     transform: translate(-50%, -50%); /* Center the container both horizontally and vertically */
-    background-color: rgba(255, 59, 59, 0.5); /* Transparent background with white color */
+    background-color: rgba(255, 77, 77, 0.5); /* Transparent background with white color */
     padding: 20px; /* Add padding to the container */
     border-radius: 10px; /* Add border radius for rounded corners */
     text-align: center; /* Center the text horizontally */
@@ -24,11 +24,10 @@ body {
     width: 200px; /* Set a fixed width */
     height: 40px; /* Set a fixed height */
     margin-bottom: 20px; /* Add some space between the button and the message */
-    background-color: rgb(255, 82, 134);
+    background-color: rgb(255, 161, 189);
     border-radius: 10px; /* Set the border radius to half of the button's height to make it round */
 }
 
 #message {
     font-size: 18px; /* Adjust font size as needed */
-
 }
