@@ -21,13 +21,19 @@ body {
 
 #button {
     padding: 10px 20px; /* Adjust the padding as needed */
-    width: 200px; /* Set a fixed width */
+    width: 280px; /* Set a fixed width */
     height: 40px; /* Set a fixed height */
     margin-bottom: 20px; /* Add some space between the button and the message */
     background-color: rgb(255, 161, 189);
     border-radius: 10px; /* Set the border radius to half of the button's height to make it round */
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-size: 18px; /* Adjust font size as needed */
 }
 
 #message {
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 22px; /* Adjust font size as needed */
+    font-family: "Neucha", cursive;
+    font-weight: 600;
+ 
 }
